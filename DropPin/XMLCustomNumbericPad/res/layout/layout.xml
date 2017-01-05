@@ -1,0 +1,203 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/tabbar_margin_height"
+    android:background="@drawable/warehouse"
+    tools:context="com.rossi.xmlcustomnumberpad.MainActivity" >
+
+    <LinearLayout
+        android:id="@+id/ly_numbericpad_parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btn_numberic_one"
+                style="@attr/borderlessButtonStyle"
+                android:layout_width="@dimen/tabbar_height"
+                android:layout_height="@dimen/tabbar_height"
+                android:layout_margin="@dimen/tabbar_margin_height"
+                android:background="@drawable/btn_numbericpad_bg"
+                android:text="1"
+                android:textSize="@dimen/font_size_14dp" />
+
+            <Button
+                android:id="@+id/btn_numberic_two"
+                style="@attr/borderlessButtonStyle"
+                android:layout_width="@dimen/tabbar_height"
+                android:layout_height="@dimen/tabbar_height"
+                android:layout_margin="@dimen/tabbar_margin_height"
+                android:background="@drawable/btn_numbericpad_bg"
+                android:text="2"
+                android:textSize="@dimen/font_size_14dp" />
+
+            <Button
+                android:id="@+id/btn_numberic_three"
+                style="@attr/borderlessButtonStyle"
+                android:layout_width="@dimen/tabbar_height"
+                android:layout_height="@dimen/tabbar_height"
+                android:layout_margin="@dimen/tabbar_margin_height"
+                android:background="@drawable/btn_numbericpad_bg"
+                android:text="3"
+                android:textSize="@dimen/font_size_14dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btn_numberic_four"
+                style="@attr/borderlessButtonStyle"
+                android:layout_width="@dimen/tabbar_height"
+                android:layout_height="@dimen/tabbar_height"
+                android:layout_margin="@dimen/tabbar_margin_height"
+                android:background="@drawable/btn_numbericpad_bg"
+                android:text="4"
+                android:textSize="@dimen/font_size_14dp" />
+
+            <Button
+                android:id="@+id/btn_numberic_five"
+                style="@attr/borderlessButtonStyle"
+                android:layout_width="@dimen/tabbar_height"
+                android:layout_height="@dimen/tabbar_height"
+                android:layout_margin="@dimen/tabbar_margin_height"
+                android:background="@drawable/btn_numbericpad_bg"
+                android:text="5"
+                android:textSize="@dimen/font_size_14dp" />
+
+            <Button
+                android:id="@+id/btn_numberic_six"
+                style="@attr/borderlessButtonStyle"
+                android:layout_width="@dimen/tabbar_height"
+                android:layout_height="@dimen/tabbar_height"
+                android:layout_margin="@dimen/tabbar_margin_height"
+                android:background="@drawable/btn_numbericpad_bg"
+                android:text="6"
+                android:textSize="@dimen/font_size_14dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btn_numberic_seven"
+                style="@attr/borderlessButtonStyle"
+                android:layout_width="@dimen/tabbar_height"
+                android:layout_height="@dimen/tabbar_height"
+                android:layout_margin="@dimen/tabbar_margin_height"
+                android:background="@drawable/btn_numbericpad_bg"
+                android:text="7"
+                android:textSize="@dimen/font_size_14dp" />
+
+            <Button
+                android:id="@+id/btn_numberic_eight"
+                style="@attr/borderlessButtonStyle"
+                android:layout_width="@dimen/tabbar_height"
+                android:layout_height="@dimen/tabbar_height"
+                android:layout_margin="@dimen/tabbar_margin_height"
+                android:background="@drawable/btn_numbericpad_bg"
+                android:text="8"
+                android:textSize="@dimen/font_size_14dp" />
+
+            <Button
+                android:id="@+id/btn_numberic_nine"
+                style="@attr/borderlessButtonStyle"
+                android:layout_width="@dimen/tabbar_height"
+                android:layout_height="@dimen/tabbar_height"
+                android:layout_margin="@dimen/tabbar_margin_height"
+                android:background="@drawable/btn_numbericpad_bg"
+                android:text="9"
+                android:textSize="@dimen/font_size_14dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btn_numberic_trans"
+                style="@attr/borderlessButtonStyle"
+                android:layout_width="@dimen/tabbar_height"
+                android:layout_height="@dimen/tabbar_height"
+                android:layout_margin="@dimen/tabbar_margin_height"
+                android:background="@android:color/transparent" />
+
+            <Button
+                android:id="@+id/btn_numberic_zero"
+                style="@attr/borderlessButtonStyle"
+                android:layout_width="@dimen/tabbar_height"
+                android:layout_height="@dimen/tabbar_height"
+                android:layout_margin="@dimen/tabbar_margin_height"
+                android:background="@drawable/btn_numbericpad_bg"
+                android:text="0"
+                android:textSize="@dimen/font_size_14dp" />
+
+            <Button
+                android:id="@+id/btn_numberic_delete"
+                style="@attr/borderlessButtonStyle"
+                android:layout_width="@dimen/tabbar_height"
+                android:layout_height="@dimen/tabbar_height"
+                android:layout_margin="@dimen/tabbar_margin_height"
+                android:background="@drawable/btn_numbericpad_bg"
+                android:text="Del"
+                android:textSize="@dimen/font_size_14dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/tv_numberic_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+		android:layout_margin="@dimen/tabbar_height"
+        android:gravity="center"
+        android:lines="1"
+        android:textColor="@color/color_white"
+        android:text=""
+        android:textSize="@dimen/font_size_40dp"
+        android:background="@android:color/transparent"/>
+    
+    <Button
+    	android:id="@+id/btn_views"
+        style="@attr/borderlessButtonStyle"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="@dimen/tabbar_height"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/tabbar_margin_height"
+        android:background="@drawable/btn_view_bg"
+        android:text="@string/view_str"
+        android:textSize="@dimen/font_size_14dp" />
+
+     <TextView
+        android:id="@+id/appVersion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+		android:layout_margin="@dimen/tabbar_margin_height"
+        android:lines="1"
+        android:textColor="@color/color_white"
+        android:text="v1.0"
+        android:textSize="@dimen/font_size_9dp"/>
+     <ImageButton 
+         android:id="@+id/settingsButton"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentBottom="true"
+         android:layout_alignParentRight="true"
+         android:src="@drawable/settings"
+         android:background="@android:color/transparent"/>
+</RelativeLayout>

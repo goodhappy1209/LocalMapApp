@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_getstart_button_shadow">#c4f1a8</color>
+    <color name="color_getstart_button_text">#1c778a</color>
+    <color name="color_green_getstart_button">#c4ffa0</color>
+    <color name="color_blue_bg">#5ec5db</color>
+    <color name="color_white">#ffffff</color>
+    <color name="color_green_claim_bg">#b2d980</color>
+    <color name="color_green_claim_bg_sel">#d0f3a3</color>
+    <color name="color_green_price_text">#2ea75b</color>
+    <color name="color_blackgrey_text">#878787</color>
+    <color name="color_deepblackgrey_text">#494949</color>
+    <color name="color_navyblue_text">#ff5a00</color>
+    <color name="color_lightgreywhite_text">#ececec</color>
+    <color name="color_deepdarkgreen_bg">#466a79</color>
+    <color name="color_lightdarkgreen_bg">#4b8899</color>
+    <color name="color_lightblue_board">#85b5e1</color>
+    <color name="color_lightpurple">#93268f</color>
+    <color name="color_lightpurple_select">#963e93</color>
+</resources>

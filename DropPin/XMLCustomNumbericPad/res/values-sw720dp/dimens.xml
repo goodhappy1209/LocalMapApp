@@ -1,0 +1,22 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- Defined screen margins, font size -->
+    <dimen name="font_size_5dp">12dp</dimen>
+    <dimen name="font_size_6dp">14dp</dimen>
+     <dimen name="font_size_9dp">20dp</dimen>
+    <dimen name="font_size_14dp">26dp</dimen>
+    <dimen name="font_size_17dp">40dp</dimen>
+    <dimen name="font_size_30dp">60dp</dimen>
+    <dimen name="font_size_40dp">100dp</dimen>
+    
+    <!-- Defined screen margins -->
+    <dimen name="tabbar_margin_height">17dp</dimen>
+    <dimen name="tabbar_height">120dp</dimen>
+    <dimen name="button_width">240dp</dimen>
+    <dimen name="button_fab_bottom_margin">160dp</dimen>
+     
+</resources>
